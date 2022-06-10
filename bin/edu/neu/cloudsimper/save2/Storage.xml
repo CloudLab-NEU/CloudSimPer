@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Storages>
+	<Storage name="DellSan">
+		<Attribute name="capacity">32000000</Attribute>
+	</Storage>
+	<Storage name="HuaweiSan">
+		<Attribute name="capacity">64000000</Attribute>
+		<Attribute name="bandwidth">4000</Attribute>
+		<Attribute name="networkLatency">0.5</Attribute>
+	</Storage>
+</Storages>

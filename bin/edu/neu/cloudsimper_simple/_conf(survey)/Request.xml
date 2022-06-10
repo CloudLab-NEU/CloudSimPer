@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requests>
+	<Request name="CA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="calc">
+					<Attribute name="size">1009</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">CA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+</Requests>

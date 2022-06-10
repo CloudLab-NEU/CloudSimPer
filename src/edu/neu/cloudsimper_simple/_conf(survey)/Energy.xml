@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Energies>
+	<Energy name="solar_DC_1">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_1">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="solar_DC_2">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_2">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2.1</Attribute>
+				<Attribute name="pm">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="solar_DC_3">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_3">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">1.8</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+
+	<Energy name="solar_DC_1_smooth">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_1_smooth">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="solar_DC_2_smooth">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_2_smooth">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2.1</Attribute>
+				<Attribute name="pm">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="solar_DC_3_smooth">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_3_smooth">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">1.8</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+</Energies>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hosts>
+	<Host name="1">
+		<Plugins>
+			<PowerModel name="linear">
+				<!--<Attribute name="exp">2</Attribute>-->
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idel">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">1000</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+		<Attribute name="ram">32000</Attribute>
+		<Attribute name="storage">1000000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="2">
+		<Plugins>
+			<PowerModel name="linear">
+				<!--<Attribute name="exp">2</Attribute>-->
+				<Attribute name="max">500</Attribute>
+				<Attribute name="idel">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">4000</Attribute>
+		<Attribute name="cpuNumber">6</Attribute>
+		<Attribute name="ram">64000</Attribute>
+		<Attribute name="storage">1000000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="3">
+		<Plugins>
+			<PowerModel name="linear">
+				<!--<Attribute name="exp">2</Attribute>-->
+				<Attribute name="max">550</Attribute>
+				<Attribute name="idel">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">3000</Attribute>
+		<Attribute name="cpuNumber">8</Attribute>
+		<Attribute name="ram">128000</Attribute>
+		<Attribute name="storage">1000000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+</Hosts>

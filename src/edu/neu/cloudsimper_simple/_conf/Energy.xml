@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Energies>
+	<Energy name="solar_DC_CR">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_CR">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="wind_DC_CR">
+		<Plugins>
+			<EnergyGenerator name="windFile_DC_CR">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="smooth_DC_CR">
+		<Plugins>
+			<EnergyGenerator name="smooth_DC_CR">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="solar_DC_MB">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_MB">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2.1</Attribute>
+				<Attribute name="pm">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="wind_DC_MB">
+		<Plugins>
+			<EnergyGenerator name="windFile_DC_MB">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="smooth_DC_MB">
+		<Plugins>
+			<EnergyGenerator name="smooth_DC_MB">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2.1</Attribute>
+				<Attribute name="pm">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="solar_DC_SH">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_SH">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">1.8</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="wind_DC_SH">
+		<Plugins>
+			<EnergyGenerator name="windFile_DC_SH">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">1</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="smooth_DC_SH">
+		<Plugins>
+			<EnergyGenerator name="smooth_DC_SH">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">1.8</Attribute>
+				<Attribute name="pm">0.8</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="solar_DC_LA">
+		<Plugins>
+			<EnergyGenerator name="solarFile_DC_LA">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.7</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="wind_DC_LA">
+		<Plugins>
+			<EnergyGenerator name="windFile_DC_LA">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.9</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="smooth_DC_LA">
+		<Plugins>
+			<EnergyGenerator name="smooth_DC_LA">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="dynamic">
+				<Attribute name="p0">2</Attribute>
+				<Attribute name="pm">0.7</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="solar_DC_OS">
+		<Plugins>
+<!--			<EnergyGenerator name="solarTheory_DC_OS">-->
+			<EnergyGenerator name="solarFile_DC_OS">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.04</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+	<Energy name="wind_DC_OS">
+		<Plugins>
+<!--			<EnergyGenerator name="windTheory_DC_OS">-->
+			<EnergyGenerator name="windFile_DC_OS">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">720</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.04</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+
+	<Energy name="smooth_DC_OS">
+		<Plugins>
+<!--			<EnergyGenerator name="solarTheory_DC_OS">-->
+			<EnergyGenerator name="smooth_DC_OS">
+				<Attribute name="interval">3600</Attribute>
+				<Attribute name="size">1440</Attribute>
+			</EnergyGenerator>
+			<EnergyPrice name="simple">
+				<Attribute name="price">0.04</Attribute>
+			</EnergyPrice>
+		</Plugins>
+	</Energy>
+</Energies>

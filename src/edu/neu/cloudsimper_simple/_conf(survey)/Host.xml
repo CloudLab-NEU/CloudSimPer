@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hosts>
+	<Host name="Host1">
+		<Plugins>
+			<PowerModel name="linear">
+				<Attribute name="exp">-1</Attribute>
+				<Attribute name="base">-1</Attribute>
+				<Attribute name="max">2400</Attribute>
+				<Attribute name="idle">1200</Attribute>
+			</PowerModel>
+		</Plugins>
+		<Attribute name="mips">8000</Attribute>
+		<Attribute name="cpuNumber">8</Attribute>
+	</Host>
+	<Host name="Host2">
+		<Plugins>
+			<PowerModel name="linear">
+				<Attribute name="exp">-1</Attribute>
+				<Attribute name="base">-1</Attribute>
+				<Attribute name="max">1600</Attribute>
+				<Attribute name="idle">1000</Attribute>
+			</PowerModel>
+		</Plugins>
+		<Attribute name="mips">7200</Attribute>
+		<Attribute name="cpuNumber">6</Attribute>
+	</Host>
+	<Host name="Host3">
+		<Plugins>
+			<PowerModel name="linear">
+				<Attribute name="exp">-1</Attribute>
+				<Attribute name="base">-1</Attribute>
+				<Attribute name="max">1800</Attribute>
+				<Attribute name="idle">820</Attribute>
+			</PowerModel>
+		</Plugins>
+		<Attribute name="mips">6800</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+	</Host>
+
+
+	<Host name="Host11">
+		<Plugins>
+			<PowerModel name="discrete">
+				<Attribute name="exp">-1</Attribute>
+				<Attribute name="base">-1</Attribute>
+				<Attribute name="max">-1</Attribute>
+				<Attribute name="idle">-1</Attribute>
+				<Attribute name="powerData">1200,1400,1600,1800,2000,2200,2400</Attribute>
+			</PowerModel>
+		</Plugins>
+		<Attribute name="mips">8000</Attribute>
+		<Attribute name="cpuNumber">8</Attribute>
+	</Host>
+	<Host name="Host22">
+		<Plugins>
+			<PowerModel name="discrete">
+			<Attribute name="exp">-1</Attribute>
+			<Attribute name="base">-1</Attribute>
+			<Attribute name="max">-1</Attribute>
+			<Attribute name="idle">-1</Attribute>
+			<Attribute name="powerData">1000,1200,1400,1600</Attribute>
+		</PowerModel>
+		</Plugins>
+		<Attribute name="mips">7200</Attribute>
+		<Attribute name="cpuNumber">6</Attribute>
+	</Host>
+	<Host name="Host33">
+		<Plugins>
+			<PowerModel name="discrete">
+			<Attribute name="exp">-1</Attribute>
+			<Attribute name="base">-1</Attribute>
+			<Attribute name="max">-1</Attribute>
+			<Attribute name="idle">-1</Attribute>
+			<Attribute name="powerData">820,1000,1200,1400,1600,1800</Attribute>
+		</PowerModel>
+		</Plugins>
+		<Attribute name="mips">6800</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+	</Host>
+</Hosts>

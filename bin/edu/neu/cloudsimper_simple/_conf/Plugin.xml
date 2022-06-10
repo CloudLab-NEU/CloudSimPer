@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plugins>
+	<Plugin name="RequestDispatcher"><!-- For CloudSimPer, only default is in-use -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.request.RequestDispatcherRoundRobin</Attribute>
+		<Attribute name="roundRobin">edu.neu.cloudsimper_simple.request.RequestDispatcherRoundRobin</Attribute>
+		<Attribute name="nearest">edu.neu.cloudsimper_simple.request.RequestDispatcherNearest</Attribute>
+		<Attribute name="maxPower">edu.neu.cloudsimper_simple.request.RequestDispatcherMaxPower</Attribute>
+		<Attribute name="minTime">edu.neu.cloudsimper_simple.request.RequestDispatcherMinTime</Attribute>
+		<Attribute name="maxGreen">edu.neu.cloudsimper_simple.request.RequestDispatcherMaxGreen</Attribute>
+		<Attribute name="minCost">edu.neu.cloudsimper_simple.request.RequestDispatcherMinCost</Attribute>
+	</Plugin>
+	<Plugin name="PowerModel"><!-- For Host -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.power.PowerModelConst</Attribute>
+		<Attribute name="linear">edu.neu.cloudsimper_simple.power.PowerModelLinear</Attribute>
+		<Attribute name="exponent">edu.neu.cloudsimper_simple.power.PowerModelExponent</Attribute>
+		<Attribute name="logarithm">edu.neu.cloudsimper_simple.power.PowerModelLogarithm</Attribute>
+		<Attribute name="discrete">edu.neu.cloudsimper_simple.power.PowerModelDiscrete</Attribute>
+	</Plugin>
+	<Plugin name="RequestRandomization"><!-- For Request -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.request.RequestRandomizationEmpty</Attribute>
+		<Attribute name="simple">edu.neu.cloudsimper_simple.request.RequestRandomizationSimple</Attribute>
+	</Plugin>
+	<Plugin name="RequestGenerator"><!-- For Request -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.request.RequestGeneratorPopulationTime</Attribute>
+		<Attribute name="google">edu.neu.cloudsimper_simple.request.RequestGeneratorPopulationTime</Attribute>
+	</Plugin>
+	<Plugin name="EnergyGenerator"><!-- For Energy -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.energy.EnergyGeneratorEmpty</Attribute>
+		<Attribute name="simple">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSimple</Attribute>
+		<Attribute name="solarFile_DC_CR">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile_DC_CR">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileWind</Attribute>
+		<Attribute name="solarFile_DC_MB">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile_DC_MB">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileWind</Attribute>
+		<Attribute name="solarFile_DC_SH">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile_DC_SH">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileWind</Attribute>
+		<Attribute name="solarFile_DC_LA">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile_DC_LA">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileWind</Attribute>
+		<Attribute name="solarFile_DC_OS">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile_DC_OS">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileWind</Attribute>
+<!--		<Attribute name="solarTheory_DC_OS">edu.neu.cloudsimper_simple.energy.EnergyGeneratorTheorySolar</Attribute>-->
+<!--		<Attribute name="windTheory_DC_OS">edu.neu.cloudsimper_simple.energy.EnergyGeneratorTheoryWind</Attribute>-->
+
+		<Attribute name="smooth_DC_CR">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="smooth_DC_MB">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="smooth_DC_OS">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="smooth_DC_LA">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="smooth_DC_SH">edu.neu.cloudsimper_simple.energy.EnergyGeneratorFileSolar</Attribute>
+
+		<Attribute name="battery">edu.neu.cloudsimper_simple.energy.EnergyGeneratorBatteryLinear</Attribute>
+	</Plugin>
+	<Plugin name="EnergyPrice"><!-- For Energy -->
+		<Attribute name="default">edu.neu.cloudsimper_simple.energy.EnergyPriceFunction</Attribute>
+		<Attribute name="simple">edu.neu.cloudsimper_simple.energy.EnergyPriceConstant</Attribute>
+		<Attribute name="dynamic">edu.neu.cloudsimper_simple.energy.EnergyPriceFunction</Attribute>
+	</Plugin>
+</Plugins>

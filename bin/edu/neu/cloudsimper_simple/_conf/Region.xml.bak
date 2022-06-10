@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Regions>
+	<Region name="China">
+		<Attribute name="startLongitude">86</Attribute>
+		<Attribute name="startLatitude">44</Attribute>
+		<Attribute name="endLongitude">123</Attribute>
+		<Attribute name="endLatitude">20</Attribute>
+		<Attribute name="population">1300</Attribute>
+		<Attribute name="timeZone">CST</Attribute>
+		<Locations>
+			<Location name="Beijing">
+				<Attribute name="longitude">116.4</Attribute>
+				<Attribute name="latitude">39.8</Attribute>
+			</Location>
+			<Location name="Shenyang">
+				<Attribute name="longitude">123</Attribute>
+				<Attribute name="latitude">42</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="France">
+		<Attribute name="stratLongitude">-1.7</Attribute>
+		<Attribute name="startLatitude">50</Attribute>
+		<Attribute name="endLongitude">6.3</Attribute>
+		<Attribute name="endLatitude">43.2</Attribute>
+		<Attribute name="populationDensity">80</Attribute>
+		<Attribute name="timeZone">WET</Attribute>
+		<Locations>
+			<Location name="Paris">
+				<Attribute name="longitude">2.4</Attribute>
+				<Attribute name="latitude">48.8</Attribute>
+			</Location>
+			<Location name="Toulouse">
+				<Attribute name="longitude">1.45</Attribute>
+				<Attribute name="latitude">43.6</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+</Regions>

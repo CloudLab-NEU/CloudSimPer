@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Batteries>
+	<Battery name="unknown">
+		<Attribute name="capacity">0</Attribute>
+		<Attribute name="power">20</Attribute>
+		<Attribute name="dod">20</Attribute>
+		<Attribute name="lifecyle">20</Attribute>
+		<Attribute name="price">0.1</Attribute>
+	</Battery>
+	<Battery name="DC_CR">
+		<Attribute name="price">0.5</Attribute>
+	</Battery>
+	<Battery name="DC_LA">
+		<Attribute name="price">0.5</Attribute>
+	</Battery>
+	<Battery name="DC_MB">
+		<Attribute name="price">0.5</Attribute>
+	</Battery>
+	<Battery name="DC_SH">
+		<Attribute name="price">0.5</Attribute>
+	</Battery>
+	<Battery name="DC_OS">
+		<Attribute name="price">0.5</Attribute>
+	</Battery>
+</Batteries>

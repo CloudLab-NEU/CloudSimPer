@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginInfors>
+	<PluginInfor name="RequestDispatcher"><!-- For CloudSimPer, only default is in-use -->
+		<Attribute name="RoundRobin">edu.neu.cloudsimper.request.RequestDispatcherRoundRobin</Attribute>
+		<Attribute name="Random">edu.neu.cloudsimper.request.RequestDispatcherRandom</Attribute>
+		<Attribute name="Nearnest">edu.neu.cloudsimper.request.RequestDispatcherNearest</Attribute>
+		<Attribute name="Greedy">edu.neu.cloudsimper.request.RequestDispatcherGreedy</Attribute>
+		<Attribute name="MinCost">edu.neu.cloudsimper.request.RequestDispatcherMinCost</Attribute>
+		<Attribute name="MaxGreen">edu.neu.cloudsimper.request.RequestDispatcherMaxGreen</Attribute>
+		<Attribute name="GreenWare">edu.neu.cloudsimper.request.RequestDispatcherGreenWare</Attribute>
+	</PluginInfor>
+	<PluginInfor name="VmAllocationPolicy"><!-- For DataCenter -->
+		<Attribute name="default">org.cloudbus.cloudsim.VmAllocationPolicySimple</Attribute>
+	</PluginInfor>
+	<PluginInfor name="BwProvisioner"><!-- For Host -->
+		<Attribute name="default">org.cloudbus.cloudsim.provisioners.BwProvisionerSimple</Attribute>
+	</PluginInfor>
+	<PluginInfor name="PeProvisioner"><!-- For Host -->
+		<Attribute name="default">org.cloudbus.cloudsim.provisioners.PeProvisionerSimple</Attribute>
+	</PluginInfor>
+	<PluginInfor name="RamProvisioner"><!-- For Host -->
+		<Attribute name="default">org.cloudbus.cloudsim.provisioners.RamProvisionerSimple</Attribute>
+	</PluginInfor>
+	<PluginInfor name="PowerModel"><!-- For Host -->
+		<Attribute name="default">edu.neu.cloudsimper.power.PowerModelConst</Attribute>
+		<Attribute name="linear">edu.neu.cloudsimper.power.PowerModelLinear</Attribute>
+		<Attribute name="exponent">edu.neu.cloudsimper.power.PowerModelExponent</Attribute>
+		<Attribute name="logarithm">edu.neu.cloudsimper.power.PowerModelLogarithm</Attribute>
+		<Attribute name="discrete">edu.neu.cloudsimper.power.PowerModelDiscrete</Attribute>
+	</PluginInfor>
+	<PluginInfor name="VmScheduler"><!-- For Host -->
+		<Attribute name="default">org.cloudbus.cloudsim.VmSchedulerTimeShared</Attribute>
+	</PluginInfor>
+	<PluginInfor name="CloudletScheduler"><!-- For VM -->
+		<Attribute name="default">org.cloudbus.cloudsim.CloudletSchedulerTimeShared</Attribute>
+	</PluginInfor>
+	<PluginInfor name="CpuUtilizationModel"><!-- For Request/Cloudlet -->
+		<Attribute name="default">org.cloudbus.cloudsim.UtilizationModelFull</Attribute>
+	</PluginInfor>
+	<PluginInfor name="RamUtilizationModel"><!-- For Request/Cloudlet -->
+		<Attribute name="default">org.cloudbus.cloudsim.UtilizationModelFull</Attribute>
+	</PluginInfor>
+	<PluginInfor name="BwUtilizationModel"><!-- For Request/Cloudlet -->
+		<Attribute name="default">org.cloudbus.cloudsim.UtilizationModelFull</Attribute>
+	</PluginInfor>
+	<PluginInfor name="RequestGenerator"><!-- For Request -->
+		<Attribute name="default">edu.neu.cloudsimper.request.RequestGeneratorPopulationTime</Attribute>
+	</PluginInfor>
+	<PluginInfor name="RequestRandomization"><!-- For Request -->
+		<Attribute name="default">edu.neu.cloudsimper.request.RequestRandomizationEmpty</Attribute>
+		<Attribute name="simple">edu.neu.cloudsimper.request.RequestRandomizationSimple</Attribute>
+	</PluginInfor>
+	<PluginInfor name="EnergyGenerator"><!-- For Energy -->
+		<Attribute name="default">edu.neu.cloudsimper.energy.EnergyGeneratorEmpty</Attribute>
+		<Attribute name="simple">edu.neu.cloudsimper.energy.EnergyGeneratorFileSimple</Attribute>
+		<Attribute name="solarFile">edu.neu.cloudsimper.energy.EnergyGeneratorFileSolar</Attribute>
+		<Attribute name="windFile">edu.neu.cloudsimper.energy.EnergyGeneratorFileWind</Attribute>
+		<Attribute name="solarTheory">edu.neu.cloudsimper.energy.EnergyGeneratorTheorySolar</Attribute>
+		<Attribute name="windTheory">edu.neu.cloudsimper.energy.EnergyGeneratorTheoryWind</Attribute>
+		<Attribute name="battery">edu.neu.cloudsimper.energy.EnergyGeneratorBatteryLinear</Attribute>
+	</PluginInfor>
+</PluginInfors>

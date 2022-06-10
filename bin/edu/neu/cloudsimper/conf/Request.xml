@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requests>
+	<Request name="ChinaShort">
+		<Plugins>
+			<RequestRandomization name="default" />
+			<RequestGenerator name="default" />
+			<CpuUtilizationModel name="default" />
+			<RamUtilizationModel name="default" />
+			<BwUtilizationModel name="default" />
+		</Plugins>
+		<Attribute name="region">UK</Attribute>
+		<Attribute name="length">1000</Attribute>
+		<Attribute name="inputSize">200</Attribute>
+		<Attribute name="outputSize">300</Attribute>
+	</Request>
+	<Request name="ChinaLong">
+		<Plugins>
+			<RequestRandomization name="simple" />
+		</Plugins>
+		<Attribute name="region">UK</Attribute>
+		<Attribute name="length">100000</Attribute>
+		<Attribute name="inputSize">100</Attribute>
+		<Attribute name="outputSize">200</Attribute>
+	</Request>
+	<Request name="FranceTiny">
+		<Attribute name="region">France</Attribute>
+		<Attribute name="length">800</Attribute>
+		<Attribute name="inputSize">1</Attribute>
+		<Attribute name="outputSize">10</Attribute>
+	</Request>
+	<Request name="FranceHuge">
+		<Attribute name="region">France</Attribute>
+		<Attribute name="length">40000</Attribute>
+		<Attribute name="inputSize">20</Attribute>
+		<Attribute name="outputSize">100</Attribute>
+	</Request>
+</Requests>

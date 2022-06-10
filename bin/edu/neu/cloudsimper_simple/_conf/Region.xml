@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Regions>
+	<Region name="CA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.2</Attribute>
+		<Attribute name="region-size">6</Attribute>
+		<Attribute name="time-shift">-7</Attribute>
+		<Locations>
+			<Location name="CA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+<!--			<Location name="Beijing">-->
+<!--				<Attribute name="longitude">116.4</Attribute>-->
+<!--				<Attribute name="latitude">39.8</Attribute>-->
+<!--			</Location>-->
+		</Locations>
+	</Region>
+	<Region name="US">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.5</Attribute>
+		<Attribute name="region-size">3</Attribute>
+		<Attribute name="time-shift">-8</Attribute>
+		<Locations>
+			<Location name="US">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="LA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.5</Attribute>
+		<Attribute name="region-size">1.5</Attribute>
+		<Attribute name="time-shift">-6</Attribute>
+		<Locations>
+			<Location name="LA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="NE">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.125</Attribute>
+		<Attribute name="region-size">0.8</Attribute>
+		<Attribute name="time-shift">2</Attribute>
+		<Locations>
+			<Location name="oslo">
+				<Attribute name="longitude">10.43</Attribute>
+				<Attribute name="latitude">59.54</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="WE">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">1</Attribute>
+		<Attribute name="region-size">1</Attribute>
+		<Attribute name="time-shift">1</Attribute>
+		<Locations>
+			<Location name="WE">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="SE">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">1</Attribute>
+		<Attribute name="region-size">1.2</Attribute>
+		<Attribute name="time-shift">2</Attribute>
+		<Locations>
+			<Location name="SE">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="NA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.3</Attribute>
+		<Attribute name="region-size">9</Attribute>
+		<Attribute name="time-shift">1</Attribute>
+		<Locations>
+			<Location name="NA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="EE">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.125</Attribute>
+		<Attribute name="region-size">9</Attribute>
+		<Attribute name="time-shift">7</Attribute>
+		<Locations>
+			<Location name="EE">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="ME">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">0.25</Attribute>
+		<Attribute name="region-size">2</Attribute>
+		<Attribute name="time-shift">4</Attribute>
+		<Locations>
+			<Location name="ME">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="WA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">1.5</Attribute>
+		<Attribute name="region-size">1</Attribute>
+		<Attribute name="time-shift">6</Attribute>
+		<Locations>
+			<Location name="WA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="SA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">3</Attribute>
+		<Attribute name="region-size">1.5</Attribute>
+		<Attribute name="time-shift">7</Attribute>
+		<Locations>
+			<Location name="SA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="EA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">1.5</Attribute>
+		<Attribute name="region-size">5</Attribute>
+		<Attribute name="time-shift">9</Attribute>
+		<Locations>
+			<Location name="EA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="SEA">
+		<!--<Attribute name="startLongitude">-2</Attribute>-->
+		<!--<Attribute name="startLatitude">58</Attribute>-->
+		<!--<Attribute name="endLongitude">7</Attribute>-->
+		<!--<Attribute name="endLatitude">50</Attribute>-->
+		<!--<Attribute name="population">270</Attribute>-->
+		<!--<Attribute name="timeZone">Europe/London</Attribute>-->
+		<Attribute name="population-density">1.25</Attribute>
+		<Attribute name="region-size">0.8</Attribute>
+		<Attribute name="time-shift">10</Attribute>
+		<Locations>
+			<Location name="SEA">
+				<!--<Attribute name="longitude">0.5</Attribute>-->
+				<!--<Attribute name="latitude">51.3</Attribute>-->
+			</Location>
+		</Locations>
+	</Region>
+</Regions>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Requests>
+	<Request name="CA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+					<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">CA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="US_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">US</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="LA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">LA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="NE_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">NE</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="WE_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">WE</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="SE_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">SE</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="NA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">NA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="EE_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">EE</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="ME_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">ME</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="WA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">WA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="SA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">SA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="EA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">EA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+	<Request name="SEA_REQUEST">
+		<Plugins>
+			<RequestGenerator name="google">
+				<Attribute name="size">720</Attribute>
+			</RequestGenerator>
+		</Plugins>
+		<Attribute name="region">SEA</Attribute>
+		<Attribute name="length">10000</Attribute>
+		<Attribute name="deadline">1</Attribute>
+		<Attribute name="maxWaitTime">18000</Attribute>
+	</Request>
+</Requests>

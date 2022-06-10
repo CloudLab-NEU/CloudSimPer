@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Datacenters>
+	<Datacenter name="ZJK">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">ZhangJiaKou</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPDL580" size="200" />
+			<Host name="IBMX3850" size="200" />
+		</Hosts>
+		<Storages>
+			<Storage name="HuaweiSan" size="60" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="BJ">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">BeiJing</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="200" />
+			<Host name="HPDL580" size="200" />
+			<Host name="IBMX3850" size="200" />
+		</Hosts>
+		<Storages>
+			<Storage name="DellSan" size="65" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="50" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="FR">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Frankfurt</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="200" />
+			<Host name="HPDL580" size="100" />
+			<Host name="IBMP570" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="HuaweiSan" size="60" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="PA">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Paris</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<!--<Host name="HPDL580" size="50" />-->
+			<Host name="DELLR720" size="100" />
+			<Host name="IBMP570" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="HuaweiSan" size="60" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="OP">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Oak Ridge</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPDL580" size="200" />
+			<Host name="IBMX3850" size="200" />
+			<Host name="HUAWEI2288H" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="DellSan" size="70" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="LA">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Los Angeles</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="200" />
+			<Host name="DELLT440" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="DellSan" size="45" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="DU">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Dubai</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="200" />
+			<Host name="DELLT440" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="HuaweiSan" size="45" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+	<Datacenter name="SP">
+		<Plugins>
+			<VmAllocationPolicy name="default" />
+		</Plugins>
+		<Attribute name="location">Sao Paulo</Attribute>
+		<Attribute name="costPerSecond">0.0002</Attribute>
+		<Attribute name="costPerMem">0.1</Attribute>
+		<Attribute name="costPerStorage">0.13</Attribute>
+		<Attribute name="costPerBw">0.69</Attribute>
+		<Attribute name="schedulingInterval">100</Attribute>
+		<Hosts>
+			<!--<Host name="IBMX365M4" size="150" />-->
+			<Host name="IBMP570" size="100" />
+		</Hosts>
+		<Storages>
+			<Storage name="HuaweiSan" size="40" />
+		</Storages>
+		<Vms>
+			<Vm name="powerful" size="200" />
+			<Vm name="middle" size="200" />
+			<Vm name="weakness" size="200" />
+		</Vms>
+		<Energies>
+			<Energy name="solarFile" size="9">
+				<Plugins>
+					<EnergyGenerator name="solarFile">
+						<Attribute name="interval">3600</Attribute>
+						<Attribute name="size">8783</Attribute>
+					</EnergyGenerator>
+				</Plugins>
+				<Attribute name="priceKwh">2.0</Attribute>
+			</Energy>
+		</Energies>
+	</Datacenter>
+</Datacenters>

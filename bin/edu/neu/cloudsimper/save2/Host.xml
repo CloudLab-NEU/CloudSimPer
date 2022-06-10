@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hosts>
+	<Host name="HPDL580">
+		<Plugins>
+			<PowerModel name="exponent">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">8000</Attribute>
+		<Attribute name="cpuNumber">8</Attribute>
+		<Attribute name="ram">32000</Attribute>
+		<Attribute name="storage">500000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="IBMX3850">
+		<Plugins>
+			<PowerModel name="exponent">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">7400</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+		<Attribute name="ram">32000</Attribute>
+		<Attribute name="storage">1000000</Attribute>
+		<Attribute name="bw">500</Attribute>
+	</Host>
+	<Host name="HPXeon3104">
+		<Plugins>
+			<PowerModel name="linear">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">6800</Attribute>
+		<Attribute name="cpuNumber">6</Attribute>
+		<Attribute name="ram">8000</Attribute>
+		<Attribute name="storage">1000000</Attribute>
+		<Attribute name="bw">500</Attribute>
+	</Host>
+	<Host name="IBMP570">
+		<Plugins>
+			<PowerModel name="logarithm">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">168000</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+		<Attribute name="ram">16000</Attribute>
+		<Attribute name="storage">500000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="HUAWEI2288H">
+		<Plugins>
+			<PowerModel name="logarithm">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">12000</Attribute>
+		<Attribute name="cpuNumber">8</Attribute>
+		<Attribute name="ram">16000</Attribute>
+		<Attribute name="storage">500000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="DELLT440">
+		<Plugins>
+			<PowerModel name="logarithm">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">8800</Attribute>
+		<Attribute name="cpuNumber">10</Attribute>
+		<Attribute name="ram">64000</Attribute>
+		<Attribute name="storage">20000000</Attribute>
+		<Attribute name="bw">1000</Attribute>
+	</Host>
+	<Host name="DELLR720">
+		<Plugins>
+			<PowerModel name="logarithm">
+				<Attribute name="exp">2</Attribute>
+				<Attribute name="base">2</Attribute>
+				<Attribute name="max">450</Attribute>
+				<Attribute name="idle">220</Attribute>
+			</PowerModel>
+			<RamProvisioner name="default" />
+			<PeProvisioner name="default" />
+			<BwProvisioner name="default" />
+			<VmScheduler name="default" />
+		</Plugins>
+		<Attribute name="mips">7200</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+		<Attribute name="ram">4000</Attribute>
+		<Attribute name="storage">300000</Attribute>
+		<Attribute name="bw">500</Attribute>
+	</Host>
+</Hosts>

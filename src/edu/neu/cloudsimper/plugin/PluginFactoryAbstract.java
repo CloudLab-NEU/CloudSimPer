@@ -1,0 +1,116 @@
+package edu.neu.cloudsimper.plugin;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
+import edu.neu.cloudsimper.Const;
+import edu.neu.cloudsimper.meta.MetaContainer;
+import edu.neu.cloudsimper.meta.MetaManager;
+import edu.neu.cloudsimper.meta.MetaPlugin;
+
+/**
+ * @author Peimeng Zhu <pmzhu444@163.com>
+ */
+public abstract class PluginFactoryAbstract implements PluginFactory {
+
+	protected MetaContainer container;
+	protected MetaPlugin metaPlugin;
+	protected MetaContainer metaPlugInfor;
+	protected String pluginName;
+	protected String clazzName;
+	protected Class<?> clazz;
+	protected Constructor<?> constructor;
+	protected Object instance;
+
+	protected PluginFactoryAbstract() {
+	}
+
+	public PluginFactory createFacorty(MetaContainer container) {
+		clear();
+		this.container = container;
+		return this;
+	}
+
+	protected void clear() {
+		this.container = null;
+		this.metaPlugin = null;
+		this.pluginName = null;
+		this.metaPlugInfor = null;
+		this.clazzName = null;
+		this.clazz = null;
+		this.constructor = null;
+		this.instance = null;
+	}
+
+	protected void prepare(String plugType) {
+		this.metaPlugin = container.getPlugin(plugType);
+		this.pluginName = metaPlugin == null ? Const.P_DEFAULT : metaPlugin.getName();
+		this.metaPlugInfor = MetaManager.getPluginInfor(plugType);
+		this.clazzName = metaPlugInfor.getAttribute(pluginName);
+		try {
+			this.clazz = Class.forName(this.clazzName);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void createInstance() {
+		try {
+			this.instance = clazz.newInstance();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void createInstance(Object... initargs) {
+		try {
+			this.instance = this.constructor.newInstance(initargs);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void defineConstructor(Class<?>... paramsCalzz) {
+		try {
+			this.constructor = clazz.getDeclaredConstructor(paramsCalzz);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	protected void setPluginAttribute() {
+		if (metaPlugin != null) {
+			Method[] methods = this.instance.getClass().getMethods();
+			for (Method method : methods) {
+				String methodName = method.getName();
+				if (methodName.startsWith("set")) {
+					String attrName = methodName.substring(3);
+					attrName = (new StringBuilder()).append(Character.toLowerCase(attrName.charAt(0)))
+							.append(attrName.substring(1)).toString();
+					String value = metaPlugin.getAttribute(attrName);
+					if (value != null) {
+						try {
+							Class<?>[] clazz = method.getParameterTypes();
+							String type = clazz[0].getName();
+							if (type.equals("java.lang.String")) {
+								method.invoke(instance, value);
+							} else if (type.equals("int") || type.equals("java.lang.Integer")) {
+								method.invoke(instance, Integer.parseInt(value));
+							} else if (type.equals("double") || type.equals("java.lang.Double")) {
+								method.invoke(instance, Double.parseDouble(value));
+							} else if (type.equals("float") || type.equals("java.lang.Float")) {
+								method.invoke(instance, Float.parseFloat(value));
+							} else if (type.equals("bolean") || type.equals("java.lang.Boolean")) {
+								method.invoke(instance, Boolean.parseBoolean(value));
+							} else if (type.equals("long") || type.equals("java.lang.Long")) {
+								method.invoke(instance, Long.parseLong(value));
+							}
+						} catch (Exception e) {
+							e.printStackTrace();
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Datacenters>
+	<Datacenter name="DC_1">
+		<Attribute name="location">A</Attribute>
+		<Hosts>
+			<Host name="Host1" size="10" />
+			<Host name="Host2" size="20" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_1" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_2">
+		<Attribute name="location">B</Attribute>
+		<Hosts>
+			<Host name="Host1" size="15" />
+			<Host name="Host2" size="10" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_2" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_3">
+		<Attribute name="location">C</Attribute>
+		<Hosts>
+			<Host name="Host2" size="15" />
+			<Host name="Host3" size="15" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_3_smooth" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+</Datacenters>

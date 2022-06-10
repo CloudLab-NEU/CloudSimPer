@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vms>
+	<Vm name="powerful">
+		<Plugins>
+			<CloudletScheduler name="default" />
+		</Plugins>
+		<Attribute name="size">2000</Attribute>
+		<Attribute name="mips">4000</Attribute>
+		<Attribute name="cpuNumber">4</Attribute>
+		<Attribute name="ram">8000</Attribute>
+		<Attribute name="bw">500</Attribute>
+	</Vm>
+	<Vm name="middle">
+		<Attribute name="size">1000</Attribute>
+		<Attribute name="mips">3000</Attribute>
+		<Attribute name="cpuNumber">2</Attribute>
+		<Attribute name="ram">6000</Attribute>
+		<Attribute name="bw">200</Attribute>
+	</Vm>
+	<Vm name="weakness">
+		<Attribute name="size">500</Attribute>
+		<Attribute name="mips">1000</Attribute>
+		<Attribute name="cpuNumber">1</Attribute>
+		<Attribute name="ram">4000</Attribute>
+		<Attribute name="bw">100</Attribute>
+	</Vm>
+</Vms>

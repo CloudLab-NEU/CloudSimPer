@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Regions>
+	<Region name="UK">
+		<Attribute name="startLongitude">-2</Attribute>
+		<Attribute name="startLatitude">58</Attribute>
+		<Attribute name="endLongitude">7</Attribute>
+		<Attribute name="endLatitude">50</Attribute>
+		<Attribute name="population">270</Attribute>
+		<Attribute name="timeZone">Europe/London</Attribute>
+		<Locations>
+			<Location name="London">
+				<Attribute name="longitude">0.5</Attribute>
+				<Attribute name="latitude">51.3</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="France">
+		<Attribute name="startLongitude">-1.7</Attribute>
+		<Attribute name="startLatitude">50</Attribute>
+		<Attribute name="endLongitude">6.3</Attribute>
+		<Attribute name="endLatitude">43.2</Attribute>
+		<Attribute name="populationDensity">122</Attribute>
+		<Attribute name="timeZone">Europe/Paris</Attribute>
+		<Locations>
+			<Location name="Paris">
+				<Attribute name="longitude">2.4</Attribute>
+				<Attribute name="latitude">48.8</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="America">
+		<Attribute name="startLongitude">-130</Attribute>
+		<Attribute name="startLatitude">25</Attribute>
+		<Attribute name="endLongitude">-70</Attribute>
+		<Attribute name="endLatitude">49</Attribute>
+		<Attribute name="populationDensity">35</Attribute>
+		<Attribute name="timeZone">America/Los_Angeles</Attribute>
+		<Locations>
+			<Location name="MountainView">
+				<Attribute name="longitude">2.4</Attribute>
+				<Attribute name="latitude">48.8</Attribute>
+			</Location>
+			<Location name="LosAngeles">
+				<Attribute name="longitude">1.45</Attribute>
+				<Attribute name="latitude">43.6</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+	<Region name="Germany">
+		<Attribute name="startLongitude">-1.7</Attribute>
+		<Attribute name="startLatitude">50</Attribute>
+		<Attribute name="endLongitude">6.3</Attribute>
+		<Attribute name="endLatitude">43.2</Attribute>
+		<Attribute name="populationDensity">237</Attribute>
+		<Attribute name="timeZone">Africa/Cairo</Attribute>
+		<Locations>
+			<Location name="Berlin">
+				<Attribute name="longitude">2.4</Attribute>
+				<Attribute name="latitude">48.8</Attribute>
+			</Location>
+		</Locations>
+	</Region>
+</Regions>

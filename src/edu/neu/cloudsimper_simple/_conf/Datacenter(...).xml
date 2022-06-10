@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Datacenters>
+	<Datacenter name="DC_1">
+		<Attribute name="location">A</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="20" />
+			<Host name="HPDL580" size="5" />
+			<Host name="IBMP570" size="15" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_CR" size="1"/>
+			<Energy name="wind_DC_CR" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_MB">
+		<Attribute name="location">mumbai</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="10" />
+			<Host name="HPDL580" size="20" />
+			<Host name="IBMX3850" size="20" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_MB" size="1"/>
+			<Energy name="wind_DC_MB" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_SH">
+		<Attribute name="location">shanghai</Attribute>
+		<Hosts>
+			<Host name="HPXeon3104" size="20" />
+			<Host name="HPDL580" size="15" />
+			<Host name="IBMP570" size="10" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_SH" size="1"/>
+			<Energy name="wind_DC_SH" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_LA">
+		<Attribute name="location">losangeles</Attribute>
+		<Hosts>
+			<Host name="HPDL580" size="15" />
+			<Host name="DELLR720" size="15" />
+			<Host name="IBMP570" size="15" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_LA" size="1"/>
+			<Energy name="wind_DC_LA" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+	<Datacenter name="DC_OS">
+		<Attribute name="location">oslo</Attribute>
+		<Hosts>
+			<Host name="HPDL580" size="10" />
+			<Host name="DELLT440" size="20" />
+			<Host name="HPXeon3104" size="20" />
+		</Hosts>
+		<Energies>
+			<Energy name="solar_DC_OS" size="1"/>
+			<Energy name="wind_DC_OS" size="1"/>
+		</Energies>
+		<Batteries>
+			<Battery name="unknown" size="1"/>
+		</Batteries>
+	</Datacenter>
+</Datacenters>
